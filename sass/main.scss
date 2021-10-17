@@ -19,11 +19,7 @@ h1 {
   height: 100vh;
   width: 100%;
 
-  background: linear-gradient(
-    180deg,
-    rgba(180, 1, 162, 1) 0%,
-    rgba(239, 75, 4, 1) 100%
-  );
+  background: linear-gradient(180deg, $primary 15%, $secondary 100%);
 }
 
 .wave {
@@ -46,4 +42,21 @@ h1 {
 //Bootstrap Class Changes
 .card {
   border: none;
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.75; /* Firefox */
 }

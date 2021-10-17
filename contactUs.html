@@ -6,46 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.min.css">
-    <title>Document</title>
+    <title>Contact Us</title>
 </head>
 
 <body>
     <section class="bg-gradient">
 
         <div class="container-fluid pt-5">
-            <header>
-                <div class="jumbotron-fluid bg-light">
-                    <div class="row align-items-center">
-                        <div class="col-4">
-                            <img class="p-2 logo" src="images/Logo.svg" alt="">
+            <header class="d-flex flex-column justify-content-center side-margin">
+                <div>
+                    <div class="row justify-content-center">
+                        <div class="col-2 col-md-4 no-padding">
+                            <img class="py-2 logo" src="images/Logo.svg" alt="">
                         </div>
-                        <div class="col-8">
-                            <button class="btn btn-primary mr-3 float-right">Register</button>
-                            <button class="btn btn-outline-primary mr-3 float-right">Login</button>
+                        <div class="col-6 col-md-4 no-padding">
+                            <button class="btn btn-secondary mt-3 rounded-pill float-right" style="min-width: 100px;">Register</button>
+                            <button class="btn btn-outline-secondary rounded-pill mr-3 mt-3 float-right text-white" style="min-width: 100px;">Login</button>
                         </div>
                     </div>
                 </div>
             </header>
 
-            <p class="text-center text-white mt-5">If you are having any issues with the product or would like to leave us some feedback, you can get in contact with us using the contact form below!</p>
+            <div class="row justify-content-center">
+                <p class="text-center text-white mt-5 side-margin col-8">If you are having any issues with the product or would like to leave us some feedback, you can get in contact with us using the contact form below!</p>
+            </div>
 
-            <div class="card bg-light mb-3 mx-auto mt-5 shadow-lg overtop" style="max-width: 25rem; min-height: 25rem;">
-                <div class="card-header text-center text-white bg-primary">Contact Us!</div>
-                <div class="card-body">
-                    <form>
-                        <div class="form-group row justify-content-center">
-                            <input type="text" name="subject" placeholder="Subject...">
-                        </div>
-                        <hr>
-                        <div class="form-group row justify-content-center">
-                            <textarea rows="6" type="text" name="content" placeholder="Feedback..."></textarea>
-                        </div>
-                        <div class="form-group row justify-content-center">
-                            <button class="btn btn-primary">Submit!</button>
-                        </div>
-                    </form>
+
+            <div class="row justify-content-center">
+                <div class="card bg-light mt-5 shadow-lg overtop col-8">
+                    <div class="card-header text-center text-white bg-primary">
+                        <h3>Contact Us!</h3>
+                    </div>
+                    <div class="card-body">
+                        <form class="ml-3 mr-3">
+                            <div class="form-group">
+                                <label for="ContactName">Name *</label>
+                                <input class="bg-primary rounded border-0 form-control text-white" id="ContactName" type="text" name="Name" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="Email">Your Email *</label>
+                                <input class="bg-primary rounded border-0 form-control text-white" id="Email" type="email" name="Name" placeholder="Your Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Message">Message *</label>
+                                <textarea class="bg-primary rounded border-0 form-control text-white" id="Message" rows="6" type="text" name="content" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button class="btn btn-secondary form-control rounded-pill">Submit!</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+
         </div>
 
         <svg class="wave align-self-end" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
