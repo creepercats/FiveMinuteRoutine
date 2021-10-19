@@ -1,6 +1,7 @@
 //Variables
 $primary: #753984;
 $secondary: #ff7c43;
+$info: white;
 
 //Custom Changes
 body {
@@ -22,6 +23,15 @@ h1 {
   background: linear-gradient(180deg, $primary 15%, $secondary 100%);
 }
 
+.white-transparent {
+  opacity: 0.75;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
 .wave {
   position: absolute;
   bottom: 0;
@@ -36,12 +46,8 @@ h1 {
   height: 75px;
 }
 
-.nav-active {
-  border-bottom: 1px solid white;
-}
-
 // Import Bootstrap
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 //Bootstrap Class Changes
 .card {
@@ -49,6 +55,15 @@ h1 {
 
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.btn-invert {
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-invert:hover {
+  color: $primary;
 }
 
 .no-padding {
@@ -61,6 +76,6 @@ textarea {
 
 .form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
+  color: black;
   opacity: 0.75; /* Firefox */
 }
