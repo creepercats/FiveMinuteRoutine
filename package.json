@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.6.0"
+    "bootstrap": "^4.6.0",
+    "node-sass": "^6.0.1"
   },
   "devDependencies": {
     "lite-server": "^2.6.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "dev-watch": "node-sass --watch ./src/scss -o ./src/css",
+    "build-sass": "node-sass ./src/scss -o ./dist/css --output-style compressed",
+    "build-images": "imagemin ./src/images/* -o ./dist/images"
   },
   "repository": {
     "type": "git",

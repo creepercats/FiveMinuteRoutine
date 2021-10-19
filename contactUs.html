@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <title>Contact Us</title>
 </head>
 
@@ -14,21 +14,31 @@
 
         <div class="container-fluid pt-5">
             <header class="d-flex flex-column justify-content-center side-margin">
-                <div>
-                    <div class="row justify-content-center">
-                        <div class="col-2 col-md-4 no-padding">
-                            <img class="py-2 logo" src="images/Logo.svg" alt="">
-                        </div>
-                        <div class="col-6 col-md-4 no-padding">
-                            <button class="btn btn-secondary mt-3 rounded-pill float-right" style="min-width: 100px;">Register</button>
-                            <button class="btn btn-outline-secondary rounded-pill mr-3 mt-3 float-right text-white" style="min-width: 100px;">Login</button>
-                        </div>
+
+                <nav class="navbar navbar-expand-sm navbar-light">
+                    <a class="navbar-brand" href="#"><img class="py-2 logo" src="images/Logo.svg" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="/">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white nav-active" href="/contactus.html">Contact Us</a>
+                            </li>
+                        </ul>
+
+                        <button class="btn btn-outline-secondary rounded-pill mr-3 mt-3 text-white" style="min-width: 100px;">Login</button>
+                        <button class="btn btn-secondary mt-3 rounded-pill" style="min-width: 100px;">Register</button>
                     </div>
-                </div>
+                </nav>
             </header>
 
             <div class="row justify-content-center">
-                <p class="text-center text-white mt-5 side-margin col-8">If you are having any issues with the product or would like to leave us some feedback, you can get in contact with us using the contact form below!</p>
+                <h3 class="text-center text-white mt-5 side-margin col-8">We welcome any feedback.</h3>
             </div>
 
 

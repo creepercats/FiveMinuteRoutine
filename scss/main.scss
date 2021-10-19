@@ -36,8 +36,12 @@ h1 {
   height: 75px;
 }
 
+.nav-active {
+  border-bottom: 1px solid white;
+}
+
 // Import Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 //Bootstrap Class Changes
 .card {
