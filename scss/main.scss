@@ -7,6 +7,8 @@ $info: white;
 body {
   padding: 0px;
   margin: 0px;
+  display: grid;
+  height: 100%;
 }
 
 h1 {
@@ -14,10 +16,7 @@ h1 {
 }
 
 .bg-gradient {
-  position: relative;
-
   margin: 0px;
-  height: 100vh;
   width: 100%;
 
   background: linear-gradient(180deg, $primary 15%, $secondary 100%);
@@ -32,11 +31,6 @@ h1 {
   background-color: white;
 }
 
-.wave {
-  position: absolute;
-  bottom: 0;
-}
-
 .overtop {
   z-index: 1000;
 }
@@ -44,6 +38,17 @@ h1 {
 .logo {
   width: 75px;
   height: 75px;
+}
+
+.round-image {
+  height: 250px;
+  width: 250px;
+
+  border-radius: 100%;
+}
+
+.border-primary {
+  border: 2px solid $primary;
 }
 
 // Import Bootstrap

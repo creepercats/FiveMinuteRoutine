@@ -1,14 +1,14 @@
 body {
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  display: grid;
+  height: 100%; }
 
 h1 {
   margin: 0px; }
 
 .bg-gradient {
-  position: relative;
   margin: 0px;
-  height: 100vh;
   width: 100%;
   background: linear-gradient(180deg, #753984 15%, #ff7c43 100%); }
 
@@ -19,16 +19,20 @@ h1 {
 .bg-white {
   background-color: white; }
 
-.wave {
-  position: absolute;
-  bottom: 0; }
-
 .overtop {
   z-index: 1000; }
 
 .logo {
   width: 75px;
   height: 75px; }
+
+.round-image {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%; }
+
+.border-primary {
+  border: 2px solid #753984; }
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
