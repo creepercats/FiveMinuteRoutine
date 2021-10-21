@@ -1,0 +1,71 @@
+h2,
+h3 {
+  font-family: "Radley";
+}
+
+body {
+  font-family: "Radley", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+/*
+  #main-image {
+    border: 4px solid white;
+    border-radius: 5px;
+  */
+#main-image {
+  position: relative;
+  text-align: center;
+  color: #ff7c43;
+}
+
+.centered {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: Rosarivo;
+  letter-spacing: 8px;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+}
+
+.bg-gradient {
+  position: relative;
+
+  margin: 0px;
+  height: 300vh;
+  width: 100%;
+
+  background: linear-gradient(180deg, #753984 15%, #ff7c43 100%);
+}
+
+h2,
+h4 {
+  color: white;
+}
+
+.wave-top {
+  position: absolute;
+  bottom: 100;
+}
+
+#onething {
+  background-color: white;
+  object-position: bottom;
+  position: absolute;
+  z-index: 100;
+}
+
+#one-thing-input {
+  background-color: #753984;
+  min-width: 200px;
+}
+
+#commit {
+  background-color: #ff7c43;
+}
