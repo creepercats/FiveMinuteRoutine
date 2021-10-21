@@ -4,8 +4,14 @@ body {
   display: grid;
   height: 100%; }
 
+p {
+  font-family: "Radley", serif; }
+
 h1 {
   margin: 0px; }
+
+#one-thing-text {
+  font-size: 24px; }
 
 .bg-gradient {
   margin: 0px;
@@ -33,6 +39,15 @@ h1 {
 
 .border-primary {
   border: 2px solid #753984; }
+
+.border-hero-image {
+  border: 2px solid white; }
+
+.centered {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -7236,6 +7251,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .no-padding {
   padding: 0px; }
+
+.one-thing-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
 
 textarea {
   resize: none; }

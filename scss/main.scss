@@ -11,8 +11,16 @@ body {
   height: 100%;
 }
 
+p {
+  font-family: "Radley", serif;
+}
+
 h1 {
   margin: 0px;
+}
+
+#one-thing-text {
+  font-size: 24px;
 }
 
 .bg-gradient {
@@ -51,6 +59,17 @@ h1 {
   border: 2px solid $primary;
 }
 
+.border-hero-image {
+  border: 2px solid $info;
+}
+
+.centered {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 // Import Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -73,6 +92,11 @@ h1 {
 
 .no-padding {
   padding: 0px;
+}
+
+.one-thing-section {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 textarea {
