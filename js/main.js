@@ -15,3 +15,26 @@ $(function () {
     $("#LogRegModal").modal("show");
   });
 });
+
+const percent = 90;
+let grade = "unknown";
+
+switch (percent) {
+  case percent >= 90:
+    grade = "A";
+    break;
+  case percent >= 80:
+    grade = "B";
+    break;
+  case percent >= 70:
+    grade = "C";
+    break;
+  case percent >= 60:
+    grade = "D";
+    break;
+  case percent >= 50:
+    grade = "F";
+    break;
+  default:
+    grade = "unknown";
+}
