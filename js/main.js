@@ -14,9 +14,7 @@ $(function () {
     $("#pills-register-tab").removeClass("active").addClass("active");
     $("#LogRegModal").modal("show");
   });
-});
 
-$(function () {
   $("#CommitBtn").on("click", function () {
     $("#pills-register").removeClass("show active").addClass("show active");
     $("#pills-login").removeClass("show active");
